@@ -31,10 +31,13 @@ h1,h3{
     color: purple;
     background-color: yellow;
 }
+
+/* decendant selector */
 nav ul li{
     color: hotpink;
 }
 
+/* adjacent sibling selector */
 p+h3{
     text-decoration: underline;
 }
@@ -43,11 +46,14 @@ p+h3{
     background-color: rgb(25, 12, 209);
     color: aqua;
 }
+
+/* child combinator */
 div>input{
     color: lightskyblue;
     background-color: salmon;
 }
 
+/* attribute selector */
 input[type="text"]{
     color: red;
 }
@@ -94,4 +100,5 @@ button{
     background-color: inherit;
 
 }
+
 
