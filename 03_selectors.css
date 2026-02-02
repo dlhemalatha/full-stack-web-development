@@ -66,6 +66,7 @@ input[type="password"]{
     background-color: bisque;
 }*/
 
+/* pseudo class */
 button:hover{
     color: white;
     background-color: black;
@@ -85,6 +86,7 @@ div:nth-of-type(2n){
    background-color:rgb(111, 186, 111);
 }
 
+/* pseudo elements */
 h1::first-letter{
     color: black;
 }
@@ -96,9 +98,12 @@ h1::first-letter{
 p::selection{
     color: rgb(228, 243, 120);
 }
+
+/* inheritance */
 button{
     background-color: inherit;
 
 }
+
 
 
