@@ -1,11 +1,14 @@
+/* universal selector */
 *{
     font-family: 'Courier New';    
-
 }
 
+/* element selector */
 h1,h3{
     color: #b92b27;
 }
+
+/* id selector */
 #login{
     color: white;
     background-color: blue;
@@ -15,6 +18,7 @@ h1,h3{
     background-color:blue;
 }
 
+/* class selector */
 .upvote{
     color: blue;
     background-color: yellowgreen;
@@ -90,3 +94,4 @@ button{
     background-color: inherit;
 
 }
+
