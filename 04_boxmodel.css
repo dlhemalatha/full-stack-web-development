@@ -20,6 +20,7 @@
     border-top-right-radius: 20px;
     padding-left: 70px;
     margin:10px 30px;
+  /* border radius ,height and width property */
 }
 
 button{
@@ -64,4 +65,5 @@ button{
     /* Relative units - em unit  */
 
 }
+
 
